@@ -124,9 +124,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-MINIO_ENDPOINT = 'minio.pixl.ai'
-MINIO_ACCESS_KEY = 'minioadmin'
-MINIO_SECRET_KEY = 'minioadmin'
+MINIO_ENDPOINT = 'play.minio.io:9000'
+MINIO_ACCESS_KEY = 'Q3AM3UQ867SPQQA43P2F'
+MINIO_SECRET_KEY = 'zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG'
 MINIO_USE_HTTPS = True
 MINIO_PRIVATE_BUCKETS = [
     'django-test-private',
